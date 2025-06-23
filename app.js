@@ -5,14 +5,14 @@
 
 // Step 1: Select the button and the circle
 const toggleButton = document.querySelector("#toggle");
-console.dir(toggleButton)
-const circle = document.querySelector(".circle");
+const circle = document.querySelector(".circle")
+
+function handlePulse(){
+  console.log("PULSE")
+}
 
 // Step 2: Add click event to toggle the class
-toggleButton.addEventListener("click", () => {
-  circle.classList.toggle("pulse");
-});
-
+toggleButton.addEventListener("click", handlePulse)
 
 
 

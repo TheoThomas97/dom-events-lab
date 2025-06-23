@@ -4,7 +4,8 @@
 // * Hint 2: When you click the button again, it should go back to being an outline of a circle.
 
 // Step 1: Select the button and the circle
-const toggleButton = document.getElementById("toggle");
+const toggleButton = document.querySelector("#toggle");
+console.dir(toggleButton)
 const circle = document.querySelector(".circle");
 
 // Step 2: Add click event to toggle the class
